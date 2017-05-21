@@ -1,0 +1,57 @@
+# Journal class 10 week 2 recap
+
+  I've learned about what objects do, functions and constructor functions, how to use them. I learned how to make a form, some CSS tricks, I learned how to build a table, I learned about the DOM. Events, add listeners and getElementById.
+
+  Overall this week my brain feeled like it was not as lost and was actually proccessing some information, I still feel like my heads barely floating above the water but I wont let that stop me from trying.
+  
+  Here are my note for week 2.
+
+Domain Modeling
+Object literal
+DOCUMENT OBJECT MODEL
+
+Var car = {			VAR declare new car object variable
+
+	Make: 'nissan',		nissan = VALUE
+	Model: 'altima',		model = VALUE
+	Year: 1988,		YEAR = PROPERTY, 1988 = integer (no ‘’)
+
+
+Accessories: ['auto', ‘abs', 'turbo'],		ARRAY
+	Engine: {
+	Make: 'nissan',
+	Cylinder: ‘V12'		V12 = OBJECT
+	}
+}
+
+Object Constructers
+Reuseablity
+Function -> “new” keyword to instaniate a new object
+Dynamically, insert HTML into the DOM through the use of JS
+
+Function Car (make, model, year, accessories, engine) {
+This.make = make;
+This.model = model;	
+CONSTRUCTOR FUNCTION -> var nissan = new Car('maxima', 'altima')
+
+
+
+
+Object Consturctors + Tables + Events + Forms
+Events -> allow for interactive behavior
+	“addEventListener”
+	var el = document.getElementById(‘el’); var access element in DOM
+	el.addEventListener(‘click’, someFunc);
+			Array an event listener to the element
+
+
+JS DEBUGGING and Chrome dev tools / CSS 3 annotations
+Transitions	
+JS Events
+JS DEBUGGER set breakpoints (pause the JS)
+JS console
+Elements
+Modify styles
+Modify / review box model
+Name elements in the DOM for testing
+Where to locate parent/child relations
